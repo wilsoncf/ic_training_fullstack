@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffcbdb;
+
+}
+.header{
+    margin-left: 100px;
+}
+.login{
+    background-color: #bf40bf;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+button{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color:magenta;
+}
