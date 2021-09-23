@@ -1,54 +1,44 @@
-:root{
-    --cor-fundo : rgb(153, 4, 128);
-    --cor-primaria : #fff;
-    --cor-hover: rgb(206, 7, 173);
+*{
+    padding: 0;
+    margin: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
 }
-.menu-bar{
-    margin-top: 25px;
-    margin-left: 0px;
-    list-style-type: none;
-    padding: 0;
+#header{
+    width: 100%;
+
+}
+#header .navbar-brand{
+    margin-left: 3rem;
+    width: 261px;
+    height: 64px;
+}
+#header .navbar-collapse{
+   margin-left: 50rem;
+    width: auto;
+
+}
+#slider {
+    margin-top: 10rem;
+    background: url(../assets/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+  }
+  
+  #slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  #slider h4 {
+    font-size: 18px;
     
-} 
-.menu-bar ul{
-    background-color: var(--cor-fundo);
-    border-radius: 15px;
-}
-.menu-bar ul li{
-    position: relative;
-    display: inline;
-}
-.menu-bar ul li a{
-    color: var(--cor-primaria);
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;    
-}
-.menu-bar ul li a:hover{
-    background-color: var(--cor-hover);
-}
-.menu-bar ul ul{
-    display: none;
-    width: 150px;
-    position: absolute;
-}
-.menu-bar ul li:hover ul{
-    display: block;
-    position: absolute;
-}
-.menu-bar ul ul li{
-    display: block;
-   
-}
-.container img{
-    margin-top: 100px;
-    width: 300px;
-    height: 350px;
-}
-.container{
-    margin-top: 100px;
-    display: flex;
+  }
+  #slider #image{
+      padding: 0%;
+      margin: 0;
+  }
+  #slider img{
+    width: 500px;
+    height: 450px;
 }
