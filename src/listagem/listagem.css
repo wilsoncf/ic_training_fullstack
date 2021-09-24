@@ -1,3 +1,44 @@
-form{
-    width: 30%;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+table .heading{
+    font-weight: bold;
+    text-decoration: underline;
+}
+table button{
+    border: transparent;
+}
+
+.tela-cadastro{
+    background-color: #bf40bf;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.tela-cadastro input{
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.tela-cadastro #age-input{
+    width: 50px;
+}
+.tela-cadastro button{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.tela-cadastro button:hover{
+    background-color:magenta;
 }
