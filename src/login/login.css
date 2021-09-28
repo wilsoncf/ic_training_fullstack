@@ -12,7 +12,7 @@ body{
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 80px;
+    padding: 100px;
     border-radius: 15px;
     color: white;
 }
@@ -24,6 +24,12 @@ input{
     padding: 15px;
     border: none;
     outline: none;
+}
+#checker{
+    align-items: center;
+}
+#checker #btnchecker{
+    display: none;
 }
 a button{
     background-color: purple;

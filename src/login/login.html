@@ -14,9 +14,13 @@
 <div class="login">
     <h1>Login</h1>
     <p id="email-reset">Digite seu email para restaurar sua senha</p>
-    <input type="text" placeholder="Email"><br><br>
+    <div id="checker">
+        <input  onblur="emailValidation()"  id="email" type="email" placeholder="Email">
+        <img src="../../done.svg" alt="verificado" id="btnchecker">
+    </div>
+    <br><br>
     <input id="password" type="password" placeholder="Senha"><br><br>
-    <a href="../home/home.html" id="joinbtn"><button>Entrar</button></a>
+    <a id="joinbtn" onclick="validation()"><button>Entrar</button></a>
     <button id="submitbtn">Enviar para email</button>
     <button id="forget-password" onclick="forgetPassword()">Esqueceu a senha?</button>
 
