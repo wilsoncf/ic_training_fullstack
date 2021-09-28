@@ -42,3 +42,6 @@ body{
     width: 500px;
     height: 450px;
 }
+#image img:hover{
+    transform: scale(1.2);
+}
