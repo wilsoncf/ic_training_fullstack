@@ -31,8 +31,6 @@ function emailValidation(){
     }
 }
 function validation(){
-    
-    
     const email = document.getElementById("email").value;
     const senha = document.getElementById("password").value;
     console.log(email);
@@ -42,7 +40,9 @@ function validation(){
     }
     if(users.has(email)){
         if(users.get(email) == senha){
+            alert("Bem vindo ao sistema, usuário " + email);
             location.href = "../home/home.html";
+            
         }
         else{
             alert("Email ou senha inválidos");
