@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Sistema de listagem</title>
     <link rel="stylesheet" href="listagem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
    
     
 </head>
@@ -17,10 +20,11 @@
         <img src="../../logo-industrycare.png" alt="IndustryCare">   
         <br><br> 
     </div>
-    <h1>Cadastro de Usuários</h1><br><br><br>
-    <table class="table table hover">
+    <h1 class="align-self-center text-center">Cadastro de Usuários</h1><br><br><br>
+<!--table-->
+    <table class="table table hover table-striped">
         <thead>
-            <tr>
+            <tr class="heading"> 
                 <th scope="col">Nome</th>
                 <th scope="col">Sobrenome</th>
                 <th scope="col">Idade</th>
@@ -32,9 +36,9 @@
             <th>Conegundes</th>
             <th>19</th>
             <th>
-                <span class="material-icons">
+                <button class="material-icons">
                     edit
-                </span>             
+                </button>             
             </th>
         </tr>
         <tr>
@@ -42,9 +46,9 @@
             <th>Silva</th>
             <th>23</th>
             <th>
-                <span class="material-icons">
+                <button class="material-icons">
                     edit
-                </span>               
+                </button>               
             </th>
         </tr>
         <tr>
@@ -52,32 +56,23 @@
             <th>Peixoto</th>
             <th>34</th>
             <th>
-                <span class="material-icons">
+                <button class="material-icons">
                     edit
-                </span>
+                </button>
             </th>
         </tr>
     </table>
+<!--/table-->
     <br><br><br>
-    <form>
-        <div class="form-group">
-          <label>Nome</label>
-          <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <label >Sobrenome</label>
-          <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <label>Idade</label>
-            <div class="col-2">
-                <input type="text" class="form-control" >
-            </div>
-           
-          </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-     
+<!--form-->
+    <div class="tela-cadastro">
+        <h1>Cadastro</h1>
+        <input type="text" placeholder="Nome"><br><br>
+        <input type="text" placeholder="Sobrenome"><br><br>
+        <input type="text" placeholder="idade" id="age-input"><br><br>
+        <button>Enviar</button>
+    </div>
+<!--/form-->
     
 
 
