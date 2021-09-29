@@ -13,28 +13,91 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <img class="img-fluid" src="../../logo-industrycare.png" alt="IndustryCare">    
-    </div>
-    <nav class="menu-bar">
-        <ul >
-            <li><a href="#">Home</a></li>
-                <li id="produtos"><a href="#">Produtos</a>
-                    <ul>
-                        <li><a href="#">Desenvolvimento web</a></li>
-                        <li><a href="#">Design</a></li>
-                    </ul>
+    <!--HEADER-->
+    <div id="header">
+        
+          <nav
+            class="navbar navbar-expand-lg navbar-light justify-content-between"
+          >
+            <a class="navbar-brand" href="#">
+              <img src="../../logo-industrycare.png"/>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Página Inicial</a>
                 </li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Quem somos?</a></li>
-        </ul>
-    </nav>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Materiais
+                  </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Data Science</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Big Data</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sensores</a>
+                </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Perfil
+                  </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Meu perfil</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Preferências</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Conexões</a>
+                </div>
+              </ul>
+            </div>
+          </nav>
+        
+      </div>
+      <!--//HEADER-->
 
-    <div class="container" id="-first-image">
-        <img src="../../imagem 2.jpg" alt="Imagem de um sistema">
-        <h1>Serviços de Tecnologia</h1>
-        <h3>Produzimos software para Indústrias</h3>
+      <!--SLIDER-->
+    <div id="slider" class="block">
+      
+        <div class="row mx-auto">
+          <div class="col-lg-4 col-md-6 align-self-center text-center mb-md-0 mb-4">  
+            <h1>Veja nossos materiais sobre tecnologia</h1>
+            <h4 class="mb-4">Aprofunde seus conhecimentos na área</h4>
+            <a
+              href="#"
+              class="button btn btn-primary button-primary d-md-inline-block d-block mb-md-0 mb-2 mr-md-2"
+              >Saiba mais</a
+            >
+            <a
+              href="#"
+              class="button btn btn-outline-primary button-primary-outline d-md-inline-block d-block"
+              >Contato</a
+            >
+          </div>
+          <div class="col-lg-8 col-md-6 align-self-center text-center" id="image">
+            <img src="../../slider.svg" class="img-fluid" />
+          </div>
+        </div>
+      
     </div>
+    <!--//SLIDER-->
+
+    
+    
         
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
